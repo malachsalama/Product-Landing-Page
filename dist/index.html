@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/584187b927.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/simple-lightbox.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Phav | Headphones of the future</title>
+</head>
+
+<body id="home">
+    <nav class="nav-bar">
+        <div class="container">
+            <h1 class="logo">Phav</h1>
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="section-a">
+        <div class="container">
+            <div>
+                <h1>The Headphones of the future</h1>
+                <p>Enjoy enhanced bass with the balanced rigidity and high response Extra Bass Diaphragm, which
+                    maintains powerful performance through hours of listening.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <img src="img/showcase.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- Overlay Text -->
+    <section class="section-b">
+        <div class="overlay">
+            <div class="section-b-inner">
+                <h3>Loud & Clear</h3>
+                <h2>People Aren't Hearing All The Music</h2>
+                <p>With up to 8 hours of battery life and Fast Fuel charging, you can experience authentic, clear sound
+                    throughout your day.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section-c">
+        <div class="gallery">
+            <a href="img/gal2323.jpg" class="big">
+                <img src="img/gal2323.jpg" alt=""></a>
+            <a href="img/gal39834.jpg" class="big">
+                <img src="img/gal39834.jpg" alt=""></a>
+            <a href="img/gal43884.jpg" class="big">
+                <img src="img/gal43884.jpg" alt=""></a>
+            <a href="img/gal4545.jpg" class="big">
+                <img src="img/gal4545.jpg" alt=""></a>
+            <a href="img/gal4958.jpg" class="big">
+                <img src="img/gal4958.jpg" alt=""></a>
+            <a href="img/gal74744.jpg" class="big">
+                <img src="img/gal74744.jpg" alt=""></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-footer">
+        <div class="container">
+            <div>
+                <h2>Follow Us</h2>
+                <a href="https://twitter.com/">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+                <a href="https://facebook.com/">
+                    <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a href="https://youtube.com/">
+                    <i class="fab fa-youtube fa-2x"></i>
+                </a>
+            </div>
+            <div>
+                <h3>Company info</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Products</h3>
+                <ul>
+                    <li><a href="#">Solo Pro</a></li>
+                    <li><a href="#">Powerbeats</a></li>
+                    <li><a href="#">Powerbeats Pro</a></li>
+                    <li><a href="#">Beats Solo Wireless</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Subscribe</h3>
+                <p>Subscribe to our monthly newsletter to get notified of new products and trends.</p>
+                <form name="email-form" method="POST" data-netlify="true">
+                    <div class="email-form">
+                        <span class="form-control-wrap">
+                            <input type="email" name="email" id="email" size="40" class="form-control"
+                                placeholder="Email">
+                        </span>
+                        <button type="submit" class="form-control submit">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="js/simple-lightbox.js"></script>
+    <script>
+        $(function () {
+            const $gallery = $('.gallery a').simpleLightbox();
+        });
+    </script>
+</body>
+
+</html>
